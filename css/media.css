@@ -1,0 +1,42 @@
+@media (max-width: 1199px) {
+	.main-featured_box img{
+		width: 300px;
+		height: 300px;
+	}
+	.main-team_box2 picture img{
+		width: 280px;
+	}
+	.main-team_box1 picture img{
+		width: 280px;
+	}
+}
+@media (max-width: 767px) {
+	header .header-text_box h2{
+		font-size: 32px;
+	}
+}
+@media (max-width: 575px) {
+	html, body, header, .view{
+		height: 103%;
+	}
+    header .header-text_box h2{
+		font-size: 22px;
+	}
+	.main-service_block2 {
+		display: block;
+	}
+	.main-service_block2_bot{
+		margin: 0 auto;
+		max-width: 140px;
+        max-height: 140px;
+	}
+	.main-service_block2_box{
+		margin-top: 30rem;
+	}
+	.main-service_block3 {
+		margin-top: 4rem;
+	}
+	.main-service_block3 img {
+		width: 320px;
+	}
+}
