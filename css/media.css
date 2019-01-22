@@ -17,7 +17,7 @@
 }
 @media (max-width: 575px) {
 	html, body, header, .view{
-		height: 103%;
+		height: 106%;
 	}
     header .header-text_box h2{
 		font-size: 22px;
