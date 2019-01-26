@@ -111,7 +111,7 @@ header .form .card .card-body form button {
   height: 320px;
   cursor: pointer;
 }
-.main-featured_box .modal {
+.main-featured_box .myModal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -124,26 +124,18 @@ header .form .card .card-body form button {
   background-color: #000000;
   background-color: rgba(0, 0, 0, 0.9);
 }
-.main-featured_box .modal .modal-content {
+.main-featured_box .myModal .modal-content {
   margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
 }
 @media only screen and (max-width: 700px) {
-  .main-featured_box .modal .modal-content {
+  .main-featured_box .myModal .modal-content {
     width: 100%;
   }
 }
-.main-featured_box .modal #caption,
-.main-featured_box .modal #caption2,
-.main-featured_box .modal #caption3,
-.main-featured_box .modal #caption4,
-.main-featured_box .modal #caption5,
-.main-featured_box .modal #caption6,
-.main-featured_box .modal #caption7,
-.main-featured_box .modal #caption8,
-.main-featured_box .modal #caption9 {
+.main-featured_box .myModal .caption {
   margin: auto;
   display: block;
   width: 80%;
@@ -153,16 +145,8 @@ header .form .card .card-body form button {
   padding: 10px 0;
   height: 150px;
 }
-.main-featured_box .modal .modal-content,
-.main-featured_box .modal #caption,
-.main-featured_box .modal #caption2,
-.main-featured_box .modal #caption3,
-.main-featured_box .modal #caption4,
-.main-featured_box .modal #caption5,
-.main-featured_box .modal #caption6,
-.main-featured_box .modal #caption7,
-.main-featured_box .modal #caption8,
-.main-featured_box .modal #caption9 {
+.main-featured_box .myModal .modal-content,
+.main-featured_box .myModal .caption{
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -184,15 +168,7 @@ header .form .card .card-body form button {
     transform: scale(1);
   }
 }
-.main-featured_box .modal .close,
-.main-featured_box .modal .close2,
-.main-featured_box .modal .close3,
-.main-featured_box .modal .close4,
-.main-featured_box .modal .close5,
-.main-featured_box .modal .close6,
-.main-featured_box .modal .close7,
-.main-featured_box .modal .close8,
-.main-featured_box .modal .close9 {
+.main-featured_box .myModal .close {
   position: absolute;
   top: 130px;
   right: 35px;
@@ -201,24 +177,7 @@ header .form .card .card-body form button {
   font-weight: bold;
   transition: 0.3s;
 }
-.main-featured_box .modal .close,
-.main-featured_box .modal .close2,
-.main-featured_box .modal .close3,
-.main-featured_box .modal .close4,
-.main-featured_box .modal .close5,
-.main-featured_box .modal .close6,
-.main-featured_box .modal .close7,
-.main-featured_box .modal .close8,
-.main-featured_box .modal .close9:hover,
-.main-featured_box .modal .close,
-.main-featured_box .modal .close2,
-.main-featured_box .modal .close3,
-.main-featured_box .modal .close4,
-.main-featured_box .modal .close5,
-.main-featured_box .modal .close6,
-.main-featured_box .modal .close7,
-.main-featured_box .modal .close8,
-.main-featured_box .modal .close9:focus {
+.main-featured_box .myModal .close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
